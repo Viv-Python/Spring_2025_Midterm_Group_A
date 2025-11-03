@@ -100,7 +100,7 @@ plt.xlabel("Experience Level")
 plt.ylabel("Salary (USD)")
 plt.show()
 
-''' Pairplot for Key Variables '''
+''' Average Salary over years '''
 
 plt.figure(figsize=(8, 6))
 sns.lineplot(data=df, x="work_year", y="salary_in_usd", estimator="mean", ci=None, marker="o")
